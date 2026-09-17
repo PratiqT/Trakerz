@@ -91,7 +91,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# will add GUI form now 
+# will add GUI from now 
 
 
 
