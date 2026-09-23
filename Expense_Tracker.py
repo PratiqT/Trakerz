@@ -1,7 +1,6 @@
 
 expenses = []
 
-
 #Total expense calculate and print
 def total_expense():
     amount = 0
