@@ -92,16 +92,3 @@ if __name__ == "__main__":
     main()
 
 # will add GUI from now 
-
-
-
-
-        
-
-
-
-    
-
-
-
-
