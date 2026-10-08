@@ -12,7 +12,7 @@ sidebar.pack(side="left", fill="y")
 main_area = tk.Frame(window)
 main_area.pack(side="right", fill="both", expand=True)
 
-title = tk.Label(sidebar, text="TRAERZ")
+title = tk.Label(sidebar, text="TRAKERZ")
 title.pack(pady=20)
 
 
