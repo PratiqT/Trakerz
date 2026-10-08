@@ -71,3 +71,4 @@ settings_button.pack(pady=10)
 
 
 window.mainloop()
+
