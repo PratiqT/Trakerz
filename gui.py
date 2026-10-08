@@ -15,7 +15,7 @@ main_area.pack(side="right", fill="both", expand=True)
 title = tk.Label(sidebar, text="TRAKERZ")
 title.pack(pady=20)
 
-dashboard_button = tk.Button(sidebar, text="Dashboard")
+dashboard_button = tk.Button(sidebar, text="prince ")
 dashboard_button.pack(pady=10)
 
 expenses_button = tk.Button(sidebar, text="Expenses")
