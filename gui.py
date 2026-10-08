@@ -61,7 +61,7 @@ total_label.pack(pady=(20, 5))
 
 total_amount = tk.Label(
     total_card,
-    text="₹0",
+    text= get_total_expense(),
     font=("Arial", 24, "bold")
 )
 
