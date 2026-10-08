@@ -1,4 +1,4 @@
-from milestone_2.database import connect_db
+from database import connect_db
 
 
 def category_totals():

@@ -2,8 +2,8 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from datetime import date
 
-import milestone_2.database as database
-import milestone_2.analytics as analytics
+import database as database
+import analytics as analytics
 
 
 class TrakerzApp:
