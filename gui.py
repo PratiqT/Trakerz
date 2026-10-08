@@ -12,7 +12,7 @@ def get_total_expense():
 expenses = [
     {
         "category": "Food",
-        "amount": 5000,
+        "amount": 200,
         "description": "Lunch"
     },
     {
@@ -72,7 +72,7 @@ total_label.pack(pady=(20, 5))
 
 total_amount = tk.Label(
     total_card,
-    text= get_total_expense(),
+    text= f"₹{get_total_expense()}",
     font=("Arial", 24, "bold")
 )
 
