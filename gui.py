@@ -9,6 +9,19 @@ def get_total_expense():
 
     return total
 
+expenses = [
+    {
+        "category": "Food",
+        "amount": 200,
+        "description": "Lunch"
+    },
+    {
+        "category": "Travel",
+        "amount": 100,
+        "description": "Bus"
+    }
+]
+
 window = tk.Tk()
 
 window.title("Trakerz")
