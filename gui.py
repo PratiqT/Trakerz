@@ -1,4 +1,13 @@
 import tkinter as tk
+expenses = []
+
+def get_total_expense():
+    total = 0
+
+    for expense in expenses:
+        total += expense["amount"]
+
+    return total
 
 window = tk.Tk()
 
