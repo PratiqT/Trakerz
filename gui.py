@@ -12,7 +12,7 @@ def get_total_expense():
 expenses = [
     {
         "category": "Food",
-        "amount": 200,
+        "amount": 5000,
         "description": "Lunch"
     },
     {
@@ -50,6 +50,17 @@ dashboard_title.pack(anchor="w", padx=30, pady=(30, 5))
 
 total_card = tk.Frame(main_area, width=250, height=120)
 total_card.pack(anchor="w", padx=30, pady=30)
+
+add_expense_frame = tk.Frame(main_area)
+add_expense_frame.pack(anchor="w", padx=30, pady=20)
+
+add_title = tk.Label(
+    add_expense_frame,
+    text="Add Expense",
+    font=("Arial", 16, "bold")
+)
+
+add_title.pack(anchor="w")
 
 total_label = tk.Label(
     total_card,
